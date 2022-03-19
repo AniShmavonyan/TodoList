@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js"></script>
+</head>
+
+<body onload=onloadpage()>
+    <div class="list">
+        <h2>ToDo</h2>
+        <div class="header">
+            <input placeholder="What needs to be done?" type="text" name="todovalue">
+            <button type="button" class="addbtn" id="btnAdd">Add</button>
+        </div>
+        <ul class="container">
+            <li class="hidden">
+                <div class="todo">
+                    <input type="checkbox" name="">
+                    <span class="val"></span>
+                    <div class="delete">x</div>
+                </div>
+            </li>
+        </ul>
+</body>
+
+</html>
